@@ -22,7 +22,7 @@ func Run() {
 	}))
 
 	routes.ConfigureRoutes(app)
-	port := fmt.Sprintf(":%s", "1311")
+	port := fmt.Sprintf(":%s", "2105")
 	err := app.Listen(port)
 
 	if err != nil {
